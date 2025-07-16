@@ -2,9 +2,6 @@ project "GLFW"
 	kind "StaticLib"
 	language "C"
 
-	targetdir ("bin/%{prj.name}")
-	objdir ("bin-int/%{prj.name}")
-
 	files
 	{
 		"include/GLFW/glfw3.h",
